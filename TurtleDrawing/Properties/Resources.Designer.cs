@@ -59,5 +59,277 @@ namespace TurtleDrawing.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to b 12
+        ///pen down
+        ///f 24
+        ///pen up
+        ///right
+        ///f 12
+        ///right
+        ///f 12
+        ///right
+        ///pen down
+        ///f 24
+        ///right
+        ///pen up
+        ///f 6
+        ///right
+        ///pen down
+        ///f 24
+        ///right
+        ///pen up
+        ///f 12
+        ///right
+        ///pen down
+        ///f 24
+        ///pen up
+        ///left
+        ///f 6
+        ///left
+        ///f 6
+        ///left
+        ///pen down
+        ///f 24
+        ///right
+        ///pen up
+        ///f 12
+        ///right
+        ///pen down
+        ///f 24
+        ///right
+        ///b 6
+        ///pen down
+        ///f 24
+        ///right
+        ///f 24
+        ///right
+        ///f 24
+        ///right
+        ///f 24
+        ///.
+        /// </summary>
+        internal static string grid {
+            get {
+                return ResourceManager.GetString("grid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;ArrayOfString xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;string /&gt;
+        ///  &lt;string&gt;square.txt&lt;/string&gt;
+        ///  &lt;string&gt;spiral.txt&lt;/string&gt;
+        ///  &lt;string&gt;snake.txt&lt;/string&gt;
+        ///  &lt;string&gt;rectangles.txt&lt;/string&gt;
+        ///  &lt;string&gt;grid.txt&lt;/string&gt;
+        ///&lt;/ArrayOfString&gt;.
+        /// </summary>
+        internal static string patterns {
+            get {
+                return ResourceManager.GetString("patterns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to left
+        ///f 8
+        ///right
+        ///pen down
+        ///f 6
+        ///right
+        ///f 16
+        ///right
+        ///f 6
+        ///right
+        ///f 16
+        ///pen up
+        ///b 2
+        ///right
+        ///f 1
+        ///pen down
+        ///f 4
+        ///right
+        ///f 14
+        ///right
+        ///f 4
+        ///right
+        ///f 14
+        ///
+        ///.
+        /// </summary>
+        internal static string rectangle {
+            get {
+                return ResourceManager.GetString("rectangle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to left
+        ///f 8
+        ///right
+        ///pen down
+        ///f 6
+        ///right
+        ///f 16
+        ///right
+        ///f 6
+        ///right
+        ///f 16
+        ///pen up
+        ///b 1
+        ///right
+        ///f 1
+        ///pen down
+        ///f 4
+        ///right
+        ///f 14
+        ///right
+        ///f 4
+        ///right
+        ///f 14
+        ///
+        ///.
+        /// </summary>
+        internal static string rectangles {
+            get {
+                return ResourceManager.GetString("rectangles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to left
+        ///f 12
+        ///right
+        ///f 8
+        ///right
+        ///pen down
+        ///f 5
+        ///right
+        ///f 5
+        ///left
+        ///f 5
+        ///left
+        ///f 5
+        ///right
+        ///f 5
+        ///right
+        ///f 5
+        ///left
+        ///f 5
+        ///left
+        ///f 7
+        ///left
+        ///f 1
+        ///right
+        ///f 2
+        ///right
+        ///f 3
+        ///right
+        ///f 2
+        ///right
+        ///f 1
+        ///left
+        ///f 8
+        ///right
+        ///f 7
+        ///right
+        ///f 5
+        ///left
+        ///f 3
+        ///left
+        ///f 5
+        ///right
+        ///f 7
+        ///right
+        ///f 5
+        ///left
+        ///f 4
+        ///
+        ///
+        ///.
+        /// </summary>
+        internal static string snake {
+            get {
+                return ResourceManager.GetString("snake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to pen down
+        ///f 1
+        ///right
+        ///f 1
+        ///right
+        ///f 3
+        ///right
+        ///f 3
+        ///right
+        ///f 5
+        ///right
+        ///f 5
+        ///right
+        ///f 7
+        ///right
+        ///f 7
+        ///right
+        ///f 9
+        ///right
+        ///f 9
+        ///right
+        ///f 11
+        ///right
+        ///f 11
+        ///right
+        ///f 13
+        ///right
+        ///f 13
+        ///right
+        ///f 15
+        ///right
+        ///f 15
+        ///right
+        ///f 17
+        ///right
+        ///f 17
+        ///right
+        ///f 19
+        ///right
+        ///f 19
+        ///right
+        ///f 21
+        ///right
+        ///f 21.
+        /// </summary>
+        internal static string spiral {
+            get {
+                return ResourceManager.GetString("spiral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to left
+        ///f 8
+        ///right
+        ///f 8
+        ///right
+        ///pen down
+        ///f 16
+        ///right
+        ///f 16
+        ///right
+        ///f 16
+        ///right
+        ///f 16
+        ///Z
+        ///.
+        /// </summary>
+        internal static string square {
+            get {
+                return ResourceManager.GetString("square", resourceCulture);
+            }
+        }
     }
 }
