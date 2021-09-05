@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TurtleDrawing
 {
     class FileReader
     {
-        internal static Queue<string> GetCommands(string patternFile)
+        internal static Queue<string> GetCommandsFromFile(string patternFile)
         {
             Queue<string> commands = new();
             StreamReader reader = new(patternFile);

@@ -35,12 +35,13 @@ namespace TurtleDrawing
 
             if (mode.Equals("M", StringComparison.OrdinalIgnoreCase)) 
             { 
+                // Takes in commands entered by the user
                 commands = UI.GetCommands(commands); 
             }
             else 
             {
                 patternFile = GetPatternFile();
-                commands = FileReader.GetCommands(patternFile);
+                commands = FileReader.GetCommandsFromFile(patternFile);
             }
             
             Drawer.Draw(commands);

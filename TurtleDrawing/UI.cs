@@ -67,6 +67,7 @@ namespace TurtleDrawing
             WriteLine("Enter filename of pattern file, or one of the following preset numbers:");
             for (int i = 1; i < patterns.Count; ++i)
             {
+                // Removes the ".txt" from pattern file name, for displaying preset options
                 string[] _ = patterns[i].Split(".");
                 string preset = _[0];
                 WriteLine($"{i}: {preset}");
